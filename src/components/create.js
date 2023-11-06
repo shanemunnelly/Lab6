@@ -20,13 +20,14 @@ function Create() {
             cover:cover,
             author: author
         };
-
+        //this is a post method for the information to be added to the server api
         axios.post('http://localhost:4000/api/books',books)
         .then()
         .catch();
 
     }
-    // some comment
+    // This is the form for adding books 
+
     return (
         <div>
             <h2>Hello from create Component!</h2>
